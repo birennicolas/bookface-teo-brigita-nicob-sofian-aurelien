@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaFacebook, FaFontAwesomeFlag, FaGamepad, FaHome, FaSistrix, FaUsers, FaVideo, FaFacebookMessenger, FaBell, FaCaretDown } from "react-icons/fa";
+import { FaFacebook, FaFontAwesomeFlag, FaGamepad, FaHome, FaSistrix, FaUsers, FaVideo, FaFacebookMessenger, FaBell, FaCaretDown, FaUserCircle, } from "react-icons/fa";
 
 
 
@@ -31,6 +31,7 @@ const Header = () => {
           </div>
         </div>
             <div className="header__right">
+                <a className="header__option" ><FaUserCircle fontSize="25px"/></a>
                 <a className="header__option" ><FaBell fontSize="25px"/></a>
                 <a className="header__option" ><FaFacebookMessenger fontSize="25px"/></a>
                 <a className="header__option" ><FaCaretDown fontSize="25px"/></a>
